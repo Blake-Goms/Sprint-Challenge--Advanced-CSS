@@ -1,1 +1,18 @@
 // Mixins Here
+.display-flex {
+    display: flex;    
+    justify-content: center;  
+    align-items: center;
+}
+
+// button parametric mixin
+// font, backgrnd color, border radius
+.btn-design(@f, @bg, @r ) {
+    color: @f;
+    background-color: @bg;
+    border-radius: @r;
+}
+.hover{
+    color: #22283A;
+    background-color: white;
+}
